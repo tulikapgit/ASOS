@@ -1,0 +1,17 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    }
+  },
+  "batchOptions": {
+    "maxMessageCount": 3,
+    "operationTimeout": "00:01:00",
+    "autoComplete": true
+  }
+
+}

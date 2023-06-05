@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "fnServiceBus": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7031",
+      "environmentVariables": {
+        "AZURE_TENENT_ID": "16b3c013-d300-468d-ac64-7eda0820b6d3"
+      }
+    }
+  }
+}
