@@ -50,7 +50,7 @@ namespace fnServiceBus
             {
                 TransportType = ServiceBusTransportType.AmqpWebSockets
             };
-            //TODO: Replace the "<NAMESPACE-NAME>" and "<QUEUE-NAME>" placeholders.
+            //Replace the "<NAMESPACE-NAME>" and "<QUEUE-NAME>" placeholders.
             client = new ServiceBusClient("fnServiceBus.servicebus.windows.net", new DefaultAzureCredential(),clientOptions);
             sender = client.CreateSender("fnqueue");
 
